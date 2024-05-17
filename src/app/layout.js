@@ -1,3 +1,7 @@
+'use client';
+import { Provider } from 'react-redux';
+import store from '../redux/store';
+
 import './globals.css';
 // import ReduxProvider from './reduxProvider';
 
@@ -9,10 +13,10 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body>
-        {/* <ReduxProvider> */}
+       <body>
+        <Provider store={store}>
           {children}
-        {/* </ReduxProvider> */}
+        </Provider>
       </body>
     </html>
   );
