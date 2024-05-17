@@ -1,4 +1,4 @@
-'use client';
+// 'use client';
 
 import TaskForm from '@/components/TaskForm';
 import TaskList from '../components/TaskList';

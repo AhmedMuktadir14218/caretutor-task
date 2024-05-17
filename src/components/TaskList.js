@@ -53,7 +53,7 @@ const TaskList = ({ tasks, editItem, removeItem }) => {
           {tasks.map((task, index) => (
             <tr key={index}>
               <td className="px-6 py-4 whitespace-nowrap text-sm font-medium text-gray-300">{task.title}</td>
-              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-500">{task.description}</td>
+              <td className="px-6 py-4 whitespace-nowrap text-sm text-gray-300">{task.description}</td>
               <td className="px-6 py-4 whitespace-nowrap text-right text-sm font-medium">
                 <button onClick={() => editItem(index)} className="text-indigo-600 hover:text-indigo-900 mr-2">Edit</button>
                 <button onClick={() => removeItem(index)} className="text-red-600 hover:text-red-900">Delete</button>

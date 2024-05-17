@@ -5,10 +5,10 @@ import store from '../redux/store';
 import './globals.css';
 // import ReduxProvider from './reduxProvider';
 
-export const metadata = {
-  title: 'Task Manager',
-  description: 'A simple task manager built with Next.js and Redux',
-};
+// export const metadata = {
+//   title: 'CareTutorsTask Manager',
+//   description: 'A TODO APP',
+// };
 
 export default function RootLayout({ children }) {
   return (
